@@ -8,7 +8,7 @@ body{
 /* Banner Related Styles */
 .banner-container{
     height: 850px;
-    background-color: rgb(177, 148, 162);
+    background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
     padding: 0% 150px;
@@ -109,7 +109,46 @@ ul li{
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+    margin-top: 32px;
+    
 }
+/* sign up related style */
+.sign-up-container{
+    height:650px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-up-information{
+    text-align: center;
+}
+.sign-up-offer-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.text-primary{
+    color: #E55473;
+}
+.sign-up-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    width:50%;
+    margin: auto;
+    margin-bottom: 52px;
+}
+.welcome-images{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    padding: 100px 250px 0px;
+}
+    
   
   
 
