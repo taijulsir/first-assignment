@@ -7,14 +7,14 @@ body{
 }
 /* Banner Related Styles */
 .banner-container{
-    width: 1920px;
     height: 850px;
     background-color: rgb(177, 148, 162);
     display: flex;
     align-items: center;
+    padding: 0% 150px;
 }
 .banner-content{
-    padding: 197px 240px 147px;
+    /* padding: 197px 240px 147px; */
 }
 .banner-title{
     color: #272727;
@@ -26,6 +26,7 @@ body{
     font-weight: 400;
     line-height: 30px;
     padding: 32px 0px;
+    width: 65%;
 }
 .btn-primary{
     border-radius: 8px;
@@ -35,12 +36,80 @@ body{
     font-size: 20px;
     font-weight: 700;
     border: none;
+
 }
 .banner-image{
-    padding: 50px 240px 0px 0px;
+    /* padding: 50px 240px 0px 0px; */
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 .banner-item-pic{
     width: 635px;
     height: 800px;
     flex-shrink: 0;
 }
+/* featured related styles */
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 178px;
+   
+}
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 24px;
+    margin-bottom: 48px; 
+}
+.flower-collection{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    gap: 25px;
+   
+}
+.flower-item1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 80px 0px 80px;
+}
+.flower-item2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 80px 0px 80px;
+}
+.flower-item3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 110px 80px 0px 80px;
+}
+.flower-collection .flower{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+  
+  
+
