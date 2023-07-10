@@ -148,7 +148,36 @@ ul li{
     flex-shrink: 0;
     padding: 100px 250px 0px;
 }
+    /* Instagram related style */
     
+.instagram-pic-collection{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        /* gap: 24px; */
+}
+.social-platform-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 128px;
+}
+.social-platform-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+   margin-top: 24px;
+   margin-bottom: 48px;
+
+}
+.instagram-picture{
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
   
   
 
