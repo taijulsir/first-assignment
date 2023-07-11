@@ -124,10 +124,10 @@ ul li{
 }
 .sign-up-information{
     text-align: center;
+    padding-left: 200px;
 }
 .sign-up-offer-title{
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -139,7 +139,7 @@ ul li{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     line-height: 30px;
-    width:50%;
+    width:55%;
     margin: auto;
     margin-bottom: 52px;
 }
@@ -147,13 +147,29 @@ ul li{
     width: 318px;
     height: 420px;
     flex-shrink: 0;
-    padding: 100px 250px 0px;
+    text-align: center;
+    padding: 100px 400px 100px 0px;
 }
 /* this is extra section related style */
 .bouqet-corner{
-    height: 70vh;
-    background-image: url('../');
+    height: 850px;
+    background-image: url('../bgh.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-top: 128px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between ;
+    
 }
+
+.bouqet-picture{
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
     /* Instagram related style */
     
 .instagram-pic-collection{
