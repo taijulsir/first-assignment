@@ -148,10 +148,10 @@ ul li{
     height: 420px;
     flex-shrink: 0;
     text-align: center;
-    padding: 100px 400px 100px 0px;
+    padding: 100px 421px 100px 0px;
 }
 /* this is extra section related style */
-.bouqet-corner{
+/* .bouqet-corner{
     height: 850px;
     background-image: url('../bgh.jpg');
     background-repeat: no-repeat;
@@ -168,7 +168,7 @@ ul li{
     width: 342px;
     height: 396px;
     flex-shrink: 0;
-}
+} */
 
     /* Instagram related style */
     
