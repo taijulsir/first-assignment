@@ -129,6 +129,7 @@ ul li{
     color: #272727;
     font-family: Lato;
     font-size: 40px;
+    font-weight: 800;
     margin-bottom: 24px;
 }
 .text-primary{
@@ -227,23 +228,23 @@ footer{
     text-align: center;
     margin-top: 128px;
 }
-.shop-name{
+.shop-name-color{
     color: #E55473;
 }
-.footer-title{
+.shop-name{
     color:#FFFFFF;
     font-family: Lato;
     font-size: 48px;
     padding-top: 128px;
 }
 
-.footer-description{
+.shop-details{
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     line-height: 30px;
     padding-top: 24px;
 }
-.footer-copyright{
+.copyright{
     color: rgba(255, 255, 255, 0.40);
    padding: 32px 0px 128px 0px;
 }
