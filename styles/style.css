@@ -83,7 +83,7 @@ body{
 .flower-item2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 110px 80px 0px 80px;
+    padding: 110px 60px 0px 60px;
 }
 .flower-item3{
     border-radius: 300px 300px 0px 0px;
@@ -110,7 +110,7 @@ ul li{
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: 32px;
-    
+    margin-bottom: 128px;
 }
 /* sign up related style */
 .sign-up-container{
@@ -149,14 +149,18 @@ ul li{
     flex-shrink: 0;
     padding: 100px 250px 0px;
 }
+/* this is extra section related style */
+.bouqet-corner{
+    height: 70vh;
+    background-image: url('../');
+}
     /* Instagram related style */
     
 .instagram-pic-collection{
         display: flex;
         justify-content: space-around;
         width: 80%;
-        margin: auto;
-        /* gap: 24px; */
+        margin: auto;      
 }
 .social-platform-title{
     color: #272727;
