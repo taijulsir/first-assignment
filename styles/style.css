@@ -13,9 +13,7 @@ body{
     align-items: center;
     padding: 0% 150px;
 }
-.banner-content{
-    /* padding: 197px 240px 147px; */
-}
+
 .banner-title{
     color: #272727;
     font-size: 50px;
@@ -39,7 +37,7 @@ body{
 
 }
 .banner-image{
-    /* padding: 50px 240px 0px 0px; */
+   
     height: 100%;
     display: flex;
     align-items: end;
@@ -113,8 +111,6 @@ ul li{
     margin-top: 32px;
     margin-bottom: 128px;
 }
-
-
 /* sign up related style */
 .sign-up-container{
     height:650px;
@@ -154,7 +150,7 @@ ul li{
     padding: 100px 421px 100px 0px;
 }
 
-    /* this is extra section */
+/* extra section related style */
 .special-offer{
     width: 1922px;
     height: 620px;
@@ -201,7 +197,6 @@ ul li{
     /* Instagram related style */   
 .instagram-pic-collection{
         display: flex;
-        /* justify-content: space-around; */
         width: 80%;
         margin: auto;   
         gap: 50.5px;   
